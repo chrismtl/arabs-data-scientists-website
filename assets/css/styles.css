@@ -6,7 +6,7 @@ body {
 }
 
 .hero-background {
-  background-image: url('path-to-your-image.jpg'); /* Replace with your image path */
+  background-image: url('../media/red_carpet_01.jpg');
   background-size: cover;
   background-position: center;
   height: 300px; /* Adjust the height as needed */
