@@ -69,9 +69,12 @@ body {
   height: 100%;
   justify-content: flex-end; /* Stack child divs to the right */
   gap: 1rem; /* Add spacing between child divs */
+  padding: 1rem 0;
 }
 
 .top-bar-buttons button {
+  display: flex;
+  align-items: center;
   background-color: transparent;
   border: none;
   color: white;
