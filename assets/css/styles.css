@@ -3,17 +3,6 @@ body {
   padding: 0;
 }
 
-/* TOP BAR */
-.top-bar {
-  width: 100%;
-  height: 5rem;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  background-color: rgba(0,0,0,0.7);
-  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);*/
-}
-
 /* TITLE */
 .title-div {
   color: white;
@@ -36,12 +25,54 @@ body {
   border-radius: 50px;
 }
 
+/* TOP BAR */
+.top-bar {
+  display: flex;
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  background-color: rgba(0,0,0,0.7);
+  padding: 0.2rem 3rem 0.2rem 1rem;
+}
+
+.top-bar-title{
+  display: flex;
+  width: 20%;
+  height: 100%;
+}
+
+.top-bar-title .pfp{
+  display: flex;
+  height: 100%;
+}
+
+.top-bar-title p{
+  display: flex;
+  height: 100%;
+  width: 20rem;
+  margin: 0;
+  padding: 0 2rem;
+  font-size: 1.3rem;
+  text-align: center;
+  align-items: center;
+  color: white;
+}
+
+.top-bar-buttons{
+  display: flex;
+  width: 80%;
+  height: 100%;
+  justify-content: flex-end; /* Stack child divs to the right */
+  gap: 1rem; /* Add spacing between child divs */
+}
+
 .top-bar-buttons button {
   background-color: transparent;
   border: none;
   color: white;
-  font-size: 1rem;
-  margin: 0 0.5rem;
+  font-size: 1.2rem;
   cursor: pointer;
   padding: 0.5rem 1rem;
   transition: background-color 0.3s;
