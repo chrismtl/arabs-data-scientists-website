@@ -5,21 +5,35 @@ body {
   padding: 0;
 }
 
-.hero-background {
-  background-image: url('../media/red_carpet_01.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 300px; /* Adjust the height as needed */
+
+/* ========= CUSTOM ========== */
+
+/* TITLE */
+.title-div {
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
-.content {
-  background-color: #fff;
-  padding: 50px;
-  font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  color: #595959;
-  font-weight: 400;
+.title-div img {
+  width: 100%;
+  height: auto;
 }
 
+.title-div .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+/* ========= DEFAULT ========== */
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
